@@ -4,7 +4,7 @@ const dataFields = [
   { key: "product", label: "品種名", example: ["トマト", "冷蔵便", "カット野菜", "チルド便"] },
   { key: "origin", label: "産地 / 拠点", example: ["茨城県", "関東圏", "千葉県", "関東圏"] },
   { key: "price", label: "取引価格", example: ["¥280/kg", "¥45,000/便", "¥320/kg", "¥38,000/便"], sensitive: true },
-  { key: "pesticide", label: "農薬使用量", example: ["3.2 L/ha", "—", "1.8 L/ha", "—"], sensitive: true },
+  { key: "chemical", label: "農薬 / 添加物", example: ["農薬 3.2 L/ha", "—", "添加物 2種", "—"], sensitive: true },
   { key: "co2", label: "CO₂排出量", example: ["12.4 kg", "15.8 kg", "18.5 kg", "15.4 kg"], sensitive: true },
   { key: "energy", label: "エネルギー使用量", example: ["840 kWh", "320 L軽油", "1,200 kWh", "280 L軽油"], sensitive: true },
 ];
