@@ -501,8 +501,12 @@ export default function CO2Demo() {
 
                 {/* なぜできるのか */}
                 <div className="bg-white rounded-2xl border border-gray-200 p-8">
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">なぜ、数値を見せずに集計できるのか？</h2>
-                  <p className="text-sm text-gray-400 mb-6">3つの暗号技術の組み合わせ。すべてブロックチェーンで10年以上の実績がある。</p>
+                  <h2 className="text-xl font-bold text-gray-900 mb-3">なぜ、数値を見せずに集計できるのか？</h2>
+                  <div className="bg-slate-900 text-white rounded-xl p-4 mb-6 text-center">
+                    <div className="text-lg font-bold mb-1">3つの暗号技術の組み合わせ</div>
+                    <div className="text-[#5EDDA8] font-bold">すべてブロックチェーンで10年以上の実績がある技術</div>
+                    <div className="text-xs text-slate-400 mt-1">新しい技術ではない。実績のある技術を、サプライチェーンに応用した。</div>
+                  </div>
                   <div className="space-y-6">
                     <div className="flex gap-4 items-start">
                       <div className="w-14 h-14 rounded-xl bg-[#378ADD] flex items-center justify-center text-white font-bold text-sm shrink-0">hyde</div>
