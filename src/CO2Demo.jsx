@@ -509,7 +509,7 @@ export default function CO2Demo() {
                   </div>
                   <div className="space-y-6">
                     <div className="flex gap-4 items-start">
-                      <div className="w-14 h-14 rounded-xl bg-[#378ADD] flex items-center justify-center text-white font-bold text-sm shrink-0">hyde</div>
+                      <img src="logos/hyde.png" alt="hyde" className="w-14 h-14 rounded-xl shrink-0 object-cover" />
                       <div>
                         <div className="font-bold text-gray-900 mb-1">データが本物であることを保証する</div>
                         <p className="text-sm text-gray-600 mb-2">各社のIoTセンサーに搭載されたTPMチップが、計測した瞬間にデータに電子署名する。<strong>機械が直接署名する</strong>ので改ざんが検知できる。</p>
@@ -517,7 +517,7 @@ export default function CO2Demo() {
                       </div>
                     </div>
                     <div className="flex gap-4 items-start">
-                      <div className="w-14 h-14 rounded-xl bg-[#1D9E75] flex items-center justify-center text-white font-bold text-sm shrink-0">argo</div>
+                      <img src="logos/argo.png" alt="argo" className="w-14 h-14 rounded-xl shrink-0 object-cover" />
                       <div>
                         <div className="font-bold text-gray-900 mb-1">数値を見せずに「基準以下」を証明する</div>
                         <p className="text-sm text-gray-600 mb-2">「私の年収は500万以上です」と証明したいとき、給与明細を見せなくても数学的に証明できる技術。同じ原理で<strong>CO₂が基準値以下であることだけ</strong>を証明する。</p>
@@ -525,7 +525,7 @@ export default function CO2Demo() {
                       </div>
                     </div>
                     <div className="flex gap-4 items-start">
-                      <div className="w-14 h-14 rounded-xl bg-[#7F77DD] flex items-center justify-center text-white font-bold text-sm shrink-0">plat</div>
+                      <img src="logos/plat.png" alt="plat" className="w-14 h-14 rounded-xl shrink-0 object-cover" />
                       <div>
                         <div className="font-bold text-gray-900 mb-1">暗号化したまま足し算する</div>
                         <p className="text-sm text-gray-600 mb-2">通常、暗号データを足すには復号が必要。準同型暗号（FHE）は<strong>暗号文のまま足し算</strong>ができる。復号しても合計値しか分からない。</p>
