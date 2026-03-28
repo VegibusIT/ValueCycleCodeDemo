@@ -12,7 +12,7 @@ export default function CO2Demo() {
   useEffect(() => {
     if (step !== 1) return;
     if (truckPos >= 100) { setStep(2); return; }
-    const t = setTimeout(() => setTruckPos(p => p + 3), 30);
+    const t = setTimeout(() => setTruckPos(p => p + 1), 40);
     return () => clearTimeout(t);
   }, [step, truckPos]);
 
